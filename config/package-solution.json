@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "user-details-web-part-client-side-solution",
+    "id": "1f060ce3-76ef-4d0e-b8f8-1649be18e955",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "userDetailsWebPart description"
+      },
+      "longDescription": {
+        "default": "userDetailsWebPart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "user-details-web-part Feature",
+        "description": "The feature that activates elements of the user-details-web-part solution.",
+        "id": "50bbc8e4-dc62-4ab8-8c78-9c0e00cd9f7d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/user-details-web-part.sppkg"
+  }
+}
